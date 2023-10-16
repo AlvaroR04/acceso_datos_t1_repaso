@@ -103,6 +103,8 @@ public class Main {
 
                     escritor.write(res);
 
+                    res = "";
+                    
                     numAtomico++;
                     posicion = (numAtomico - 1) * longitudRegistro;
                 }
